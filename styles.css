@@ -38,7 +38,7 @@ header form{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 340px; 
+    width: 342px; 
 }
 
 header form input{
