@@ -169,3 +169,40 @@ article img{
 
 
 
+#gallery{
+    height: 1000px; 
+    position: relative;
+    background-color: #F1C50E;
+    height: 2000px;
+    z-index: -1;
+    
+}
+
+.rightSide{
+    position: absolute;
+    right: 0;
+    background-color: #292D33;
+    width: 70%;
+    height: 1400px;
+    z-index: -1;
+}
+
+.galleryImages{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.galleryImages img{
+    width: 350px;
+    height: 350px;
+    z-index: 0;
+    padding-bottom: 30px;
+
+}
+
+
+
