@@ -6,6 +6,8 @@
 
 
 
+
+
 header{
     background-image: url(./img/headerImage.jpeg);
     background-size: cover;
@@ -172,7 +174,7 @@ article img{
 #gallery{
     position: relative;
     background-color: #F1C50E;
-    height: 3200px;
+    height: 3150px;
     z-index: -1;
 }
 
@@ -236,12 +238,28 @@ article img{
 }
 
 .galleryPerson{
-    height: 675px;
+
+    min-height: 710px;
     background-color: #292D33;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start ;
+    align-items: center;
     padding-top: 40px;
+    
+}
+
+.galleryPerson h2{
+    margin-top: 205px;
+    color: white;
+    font-size: 40px;
+}
+
+.galleryPerson p{
+    color: white;
+    padding: 0 60px;
+    margin-top: 20px;
+    font-size: 20px;
 }
 
 .galleryPersonShape{
@@ -260,7 +278,29 @@ article img{
 
 
 
-
 #follow{
-    height: ;
+    height: 370px;
+    background-color: #EE1B24;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
+
+#follow h1{
+    color: white;
+    font-size: 50px;
+    
+}
+
+.followIcons img{
+    width: 35px;
+    filter:invert(1);
+    margin: 10px;
+    margin-top: 40px;
+}
+
+
+
+
